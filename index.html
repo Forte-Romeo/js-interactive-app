@@ -16,28 +16,32 @@
     <!--CSS LINK-->
     <link rel="stylesheet" href="/style.css">
 </head>
+
 <body>
     <!--HEADER/NAVBAR SECTION-->
     <header class="navbar">
-        <nav>
-            <div class="head-icon">
-                <a href="index.html">ForteFilms</a>
+
+            <div class="logo">
+                <a href="index.html">
+                    <i class="fa-solid fa-film"></i>
+                    <span>ForteFilms</span>
+                </a>
             </div>
 
-            <div class="nav-links">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#Upcoming">Upcoming</a></li>
-                    <li><a href="#Movies">Movies</a></li>
-                    <li><a href="#TV Shows">TV Shows</a></li>
-                </ul>
+            <nav class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="#Upcoming">Upcoming</a>
+                    <a href="#Movies">Movies</a>
+                    <a href="#TV Shows">TV Shows</a>
+            </nav>
+
+            <div class="header-search">
+                <input type="text" id="headerSearch" placeholder="Search movies...">
+                <button id="headerSearchBtn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
             </div>
 
-            <form action="#" class="header-search">
-                <input type="text" placeholder="Enter movie name...">
-                <button type="submit"> Search </button>
-            </form>
-        </nav>
     </header>
 
     <!--DISCOVER/SEARCH MOVIES SECTION-->
@@ -70,7 +74,7 @@
     </section>
 
     <!--UPCOMING MOVIES & TV SHOWS SECTION-->
-    <section class="upcoming-sec" id="Upcoming">
+    <section class="movies-sec" id="Upcoming">
         <div class="section-header">
             <h2>Upcoming Movies & TV Shows</h2>
 
