@@ -44,7 +44,7 @@ button, input {
 }
 
 /* ===== HEADER =====*/
-.header {
+.navbar {
     position: fixed;
     top: 0;
     width: 100%;
@@ -118,4 +118,77 @@ button, input {
     color: black;
 
     border-radius: 0 8px 8px 0;
+}
+
+/* ===== HERO SECTION =====*/
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)), url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1600&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    text-align: center;
+    max-width: 900px;
+    padding: 0 20px;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    color: #cfcfcf;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.hero-search {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.hero-search input {
+    width: 450px;
+    max-width: 100%;
+
+    padding: 16px;
+
+    border: none;
+    outline: none;
+
+    border-radius: 10px;
+
+    background: #1b1b24;
+    color: white;
+}
+
+.hero-search button {
+    padding: 16px 24px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #ffb703;
+    color: black;
+
+    cursor: pointer;
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.hero-search button:hover {
+    transform: translateY(-2px);
 }
