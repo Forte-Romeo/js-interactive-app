@@ -234,3 +234,75 @@ button, input {
     background: #ffb703;
     color: black;
 }
+
+/* ===== MOVIE CAROUSEL ===== */
+.movie-carousel {
+    display: flex;
+    gap: 20px;
+
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+/* ===== MOVIE CARD ===== */
+.movie-card {
+    min-width: 260px;
+    width: 260px;
+
+    background: #15151d;
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.movie-card:hover {
+    transform: translateY(-8px);
+}
+
+.movie-poster {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+}
+
+.movie-info {
+    padding: 15px;
+}
+
+.movie-title {
+    font-size: 1rem;
+    font-weight: 600;
+
+    margin-bottom: 8px;
+}
+
+.movie-meta {
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 0.9rem;
+    color: #bbb;
+
+    margin-bottom: 10px;
+}
+
+.movie-rating {
+    color: #ffb703;
+}
+
+.movie-description {
+    font-size: 0.85rem;
+    color: #bfbfbf;
+
+    line-height: 1.5;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+    overflow: hidden;
+}
