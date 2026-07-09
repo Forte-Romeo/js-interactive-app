@@ -306,3 +306,54 @@ button, input {
 
     overflow: hidden;
 }
+
+/* ===== SEARCH RESULTS GRID ===== */
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+/* ===== MODAL ===== */
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+
+    z-index: 2000;
+
+    background: rgba(0,0,0,0.85);
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.modal-content {
+    background: #121218;
+
+    width: 100%;
+    max-width: 900px;
+
+    border-radius: 16px;
+
+    position: relative;
+
+    overflow-y: auto;
+    max-height: 90vh;
+}
+
+.close-modal {
+    position: absolute;
+
+    top: 15px;
+    right: 20px;
+
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#modalBody {
+    padding: 2rem;
+}
