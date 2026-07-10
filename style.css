@@ -417,3 +417,20 @@ button, input {
 
     color: #999;
 }
+
+/* ===== LOADING SKELETON ====== */
+.skeleton {
+    animation: loading 1.2s infinite;
+    background: linear-gradient(90deg, #222 25%, #333 50%, #222 75%);
+    background-size: 200% 100%;
+}
+
+@keyframes loading {
+    0% {
+        background-position: 200% 0;
+    }
+
+    100% {
+        background-position: -200% 0;
+    }
+}
