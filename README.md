@@ -475,6 +475,7 @@ for providing the tools and resources that make this project possible.
 **Ferguson (Forte) Romeo**
 
 Information Technology Student
+
 Software + AI Engineer | Web Developer | Entrepreneur
 
 Built as part of a JavaScript learning journey focused on creating real-world, portfolio-worthy projects.
